@@ -13,7 +13,7 @@ export class Feedback extends Component {
         <div>
             <h1>Please leave feedback</h1>
             <ul className={css.button}>
-                {/* <li> <button type ="button" name ="good" onClick= {()=>{this.handleIncrement}}>Good</button></li> */}
+                <li> <button type ="button" name ="good" >Good</button></li>
                 <li> <button>Neutral</button></li>
                 <li> <button>Bad</button></li>
             </ul>
