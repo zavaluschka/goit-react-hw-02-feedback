@@ -1,20 +1,18 @@
 import React from 'react';
-import { Feedback } from "components/Feedback/Feedback";
+import { Feedback } from "./Feedback";
+
 
 export class App extends React.Component {
-   state = {
-        good: 0,
-        neutral: 0,
-        bad: 0,
-    }
+  
   render() {
+    
     return (
       <div >
-        <Feedback />
-     
+        <Feedback  />
+      
+
       </div>
     );
   };
 }
 
-export default App;
